@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "react-important-stuff",
+    "plugin:prettier/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:testing-library/react",
+    "plugin:jest/all"
+  ],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    // "parser": "@babel/eslint-parser",
+    "requireConfigFile": false
+  }
+}
